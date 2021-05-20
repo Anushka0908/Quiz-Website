@@ -1,35 +1,9 @@
 
 *
 {
-   box-sizing:border-box
-}
-.background
-{
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Images/Instruction.jpg);
-    background-position: center;
-    background-attachment: local;
-    background-size: 100% 100%;
-    position: absolute;
-}
-.info_box
-{
-    display: flex;
-    align-items: center;
-    padding-left: 25%;
-    padding-top: 8%;
-    font-weight: 500;
-    
-}
-.buttons
-{
- padding-left: 25%;
-}
-.info
-{
-    font-size: 20px;
-    
+    margin:0;
+   box-sizing:border-box;
+   padding:0;
 }
 body
 {
@@ -40,6 +14,46 @@ body
     flex-direction: row;
     background: #040d15;
 }
+.background
+{
+    min-height: 100%;
+    width: 100%;
+    
+    
+    background-image: linear-gradient(60deg,#ADFFE4, #ADFDFF, #ADE6FF,#94C4F6, #38B6FF);
+  
+    position: absolute;
+}
+.info_box
+{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 8%;
+    
+
+    
+}
+.title{
+    font-weight: 300;
+    font-family: 'Pattaya', sans-serif;
+    color: #0066cc;
+     letter-spacing: 6px;
+}
+.title:hover{
+    color: SlateBlue;
+}
+.buttons
+{
+   
+ padding-left: 20%;
+}
+.info
+{
+    font-size: 25px;
+    color: black;
+}
+
 .button
 {
     position: relative;
@@ -48,10 +62,15 @@ body
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     border-radius: 40px;
     overflow: hidden;
-    background: linear-gradient(90deg,#0612c8,#ff72c0);
+    background: linear-gradient(5deg,#0612c8,#ff72c0);
+    color: white;
+    font-weight: 500;
+}
+.button:hover{
+    background: linear-gradient(5deg,#38B6FF,#ff72c0);
 }
 span
 {
@@ -81,6 +100,19 @@ span
 {
     padding-left: 25%;
     padding-top: 25%;
+}
+@media only screen and (max-width: 750px){
+    .info{
+        font-size: 15px;
+    }
+    .info_box{
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-height: 600px){
+    .info_box{
+        padding-top: 24%;
+    }
 }
 
 
