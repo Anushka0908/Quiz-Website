@@ -1,0 +1,86 @@
+
+*
+{
+   box-sizing:border-box
+}
+.background
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Images/Instruction.jpg);
+    background-position: center;
+    background-attachment: local;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.info_box
+{
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 8%;
+    font-weight: 500;
+    
+}
+.buttons
+{
+ padding-left: 25%;
+}
+.info
+{
+    font-size: 20px;
+    
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: row;
+    background: #040d15;
+}
+.button
+{
+    position: relative;
+    display: inline-flex;
+    padding: 12px 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    overflow: hidden;
+    background: linear-gradient(90deg,#0612c8,#ff72c0);
+}
+span
+{
+    position: absolute;
+    background:lightcoral;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        width: 0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%
+    {
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
+.Start
+{
+    padding-left: 25%;
+    padding-top: 25%;
+}
+
+

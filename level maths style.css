@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.background
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Images/Levels.jpg);
+    background-position: center;
+    background-attachment: local;
+    background-size: 100% 100%;
+    position: absolute;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.button
+{  
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 30px 0;
+    color: #fff;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,green,yellow);
+    overflow:hidden;
+    cursor: pointer;
+}
+
+.button:nth-child(2)
+{
+    background: linear-gradient(90deg,green,yellow);
+}
+.button:after
+{
+    content:"";
+    background:yellow;
+    display:block;
+    position:absolute;
+    padding-left:350%;
+    padding-top: 300%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button:active:after
+{
+    padding:0;
+    margin:0;
+    opacity:1;
+    transition: 0s;
+}
+span
+{   
+
+    position: absolute;
+    background:#fff;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        width: 0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%
+    {
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}
+.back
+{
+    margin-top: 80px;
+}

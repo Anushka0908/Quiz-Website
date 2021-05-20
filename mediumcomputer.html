@@ -1,0 +1,285 @@
+<!DOCTYPE html> 
+     <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPORT QUIZ</title>
+  <script src="jquery-3.6.0.min.js"></script>
+  
+  <script type="text/javascript" src="medium-computer.js"></script>
+  <script type="text/javascript" src="medium.js"></script>
+  
+
+  <style type="text/css">
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      margin: 0;
+      background: #a0522d;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      min-height:100vh;
+      width: 100%;
+    }
+    /*#question-box{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      min-height:100vh;
+      background: #a0522d;
+    }*/
+    .quiz-box-easy {
+      position: center;
+      top: 50%;
+      left:50%;
+      transition: translate(-50%,-50%);
+      background: white;
+      border-radius: 8px;
+      width: 640px;
+      min-height: 350px;
+      padding:50px;
+      box-shadow:0 0 50px 0 rgba(0,0,0,0.2);
+      
+
+    }
+    .quiz-box-easy  header {
+      height: 70px;
+      padding: 0 30px;
+      margin-bottom: 10px;
+      background: white;
+      display: flex;
+      border-bottom: 2px solid #a0522d;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px 5px 0 0;
+      box-shadow: 0 3px 5px 1px rgba(0,0,0,0.1)
+    }
+    .quiz-box-easy header .quiz-title{
+      font-size: 20px;
+      font-weight: 900;
+      color: #a0522d;
+      animation-name: title;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+             animation-timing-function: ease;
+    }
+    @keyframes title {
+      0%{font-size:15px;}
+      10%{font-size:16px;}
+      20%{font-size:17px;}
+      30%{font-size:18px;}
+      40%{font-size:19px;}
+      50%{font-size:20;}
+      60%{font-size:19px;}
+      70%{font-size:18px;}
+      80%{font-size:17px;}
+            90%{font-size:16px;}
+            100%{font-size:15px;}
+             }
+        /*.quiz-box-easy header .easy-score .easy-timer{
+          border: 1px solid #a0522d; 
+          border-radius: 10px;
+          padding: 10px;
+
+        }*/
+        .que-box-easy{
+          background: #a0522d;
+          color:white;
+          border-radius: 10px;
+          padding: 8px 12px;
+          font-size: 20px;
+          font-weight: 400;
+
+        }
+        .option-box{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 18px;
+          margin: 30px 0;
+        }
+        .option-box span{
+          background: white;
+        border-radius: 10px;
+          color:#a0522d;
+          border: 2px dashed #a0552d;
+          padding: 10px 15px;
+          font-weight: 900;
+        }
+        .option-box span.correct{
+          background: mediumseagreen;
+          color:white;
+          border: 2px solid #a0552d;
+          font-weight: 800;
+        }
+        .option-box span.wrong{
+          background: tomato;
+          color:white;
+          border: 2px solid #a0552d;
+          font-weight: 800;
+        }
+
+        .option-box span:hover{
+          border: 4px solid #a0552d;
+        }
+        footer{
+          display: flex;
+          justify-content: space-between;
+        }
+        footer button {
+          background: #a0552d;
+          padding: 5px 12px;
+          border-radius: 7px;
+          color: white;
+          text-decoration: none;
+            font-size: 18px;
+          font-weight: 600;
+        }
+        footer button:hover{
+          background:white;
+          color:#a0552d;
+          transition: scale(2,2);
+          cursor:progress;
+
+        }
+        .resultbackground{
+      position: center;
+      top: 50%;
+      left:50%;
+      transition: translate(-50%,-50%);
+      background: white;
+      border-radius: 8px;
+      width: 640px;
+      min-height: 350px;
+      padding:50px;
+      box-shadow:0 0 50px 0 rgba(0,0,0,0.2);
+      
+}
+    .resultbackground header{
+        height: 70px;
+      padding: 0 30px;
+      margin-bottom: 10px;
+      background: white;
+      display: flex;
+      border-bottom: 2px solid #a0522d;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px 5px 0 0;
+      box-shadow: 0 3px 5px 1px rgba(0,0,0,0.1)
+    }
+    .resultbackground header .resulttitle{
+      font-size: 20px;
+      font-weight: 900;
+      color: #a0522d;
+
+    }
+    .result-box{
+      margin-bottom:45px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 18px;
+      font-size: 20px;
+
+    }
+    .result-box *:nth-child(odd){
+              text-align:right;
+    }
+    .result-box span{
+      margin-left:15px;
+      font-weight:700;
+      color:#a0552d;
+
+    }
+    .backpage-home{
+          border-top: 2px solid #a0552d;
+          padding-top: 15px;
+          text-align: center;
+          justify-content: center;
+        }
+        .backpage-home a{
+            background: #a0552d;
+          padding: 5px 12px;
+          border-radius: 7px;
+          color: white;
+          text-decoration: none;
+            font-size: 18px;
+            
+        }
+        footer a:hover{
+          border: 2px solid #a0552d;
+          background:white;
+          color:#a0552d;
+          transition: scale(4,4);
+          cursor:progress;
+          font-weight: 700;
+
+        }
+  </style>
+</head>
+<body>
+
+  <div class="sportsbackground"  id="question-box">
+  <div id="sport-box-easy" class="quiz-box-easy">
+    <header>
+      <div id="sport-title" class="quiz-title">TODAY'S DEMAND</div>
+      <div class="quiz-timer" id="sport-timer">
+        <div id="easy-score-sport" class="easy-score"><strong>SCORE : <span></span></strong></div>
+        <div id="easy-sport-text-timer" class="easytimer"><strong>TIME LEFT : <span id="countdown">250</span> sec</strong>
+        </div>
+        
+        
+        
+      </header>
+      <section>
+        <div id="sport-que-box-easy-1" class="que-box-easy">
+          <span>The <strong>2004 Olympics</strong> were held in :</span>
+        </div>
+        <div class="option-box">
+                    <span data-opt="1" onclick="answercheck(this)"></span> 
+                    <span data-opt="2" onclick="answercheck(this)"></span>
+                    <span data-opt="3" onclick="answercheck(this)"></span>
+                    <span data-opt="4" onclick="answercheck(this)"></span>
+        </div>
+
+        
+      </section>
+      <footer>
+                 
+        <button class="nxt-btn-quiz" onclick="nextQue()"> Next Question</button>
+        <button class="show-result" onclick="resultshow(1)">Show Result</button>
+      </footer>
+      </div>
+</div>
+  
+
+
+
+  <div id="result-screen" class="resultbackground" style="display:none;">
+       <header><div class="resulttitle">
+         Your Result !
+       </div>
+   </header>
+   <section>
+     <div class="result-box">
+       <label>TOTAL  QUESTIONS : </label>
+       <span id="total-que">10</span>
+       <label> ATTEMPTED QUESTIONS : </label>
+       <span id="attempted-que">0</span>
+       <label> CORRECT ANSWERS : </label>
+       <span id="correct-ans">0</span>
+       <label> WRONG ANSWERS: </label>
+       <span id="wrong-ans">0</span>
+     </div>
+   </section>
+   <footer class="backpage-home">
+     <a href="start.html"> BACK TO START BUTTON</a>
+   </footer>
+  </div>
+  
+      
+  </body>
+  </html>
