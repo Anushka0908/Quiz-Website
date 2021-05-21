@@ -90,7 +90,7 @@ let quiz=[
       answer: 4,
     },
     {
-      question: "Spectral line splitting due to the inbfluence of magnetic fields is :",
+      question: "Spectral line splitting due to the influence of magnetic fields is :",
       option: [
            "Boltzmann Effect",
            "Zeeman Effect",
@@ -99,4 +99,65 @@ let quiz=[
       ],
       answer: 2 ,
     },
+    {
+      question: "The Study of the Origin and evolution of the universe is known as :",
+      option: [
+      "Tomography",
+      "Cystoscopy",
+      "Cryology",
+      "Cosmology",
+      ],
+      answer: 4,
+    },
+    {
+      question: "what % of the Sun mass has been Converted to energy ?",
+      option: [
+      "50 %",
+      "1 %",
+      "2%",
+      "0.001 %",
+      ],
+      answer: 4,
+    },
+    {
+      question: "According To Kepler Law , the cube of the mean distance of a Planet from the Sun is proportional to the :",
+      option: [
+      "Area that is Swept out",
+      "Cube of the period",
+      "Square of the period",
+      "Fourth power of the mean distance",
+      ],
+      answer: 3,
+    },
+    {
+      question: "According to Kepler Laws, all orbits of the Planets are :",
+      option: [
+      "Ellipse",
+      "Parabola",
+      "Hyperbola",
+      "Square",
+      ],
+      answer: 1,
+    },
+    {
+      question: "In our Solar System which Planet has a Moon closest to its own ?",
+      option: [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Pluto",
+      ],
+      answer: 4,
+    },
+    {
+  question: "A Pulsar is actually a : ",
+  option: [
+  "Black Hole",
+  "White Dwarf",
+  "Red giant",
+  "Neutron Star",
+  ],
+  answer: 4, 
+},
+
     ]
