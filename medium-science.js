@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 2 ,
     },
+    {
+  question: "Sea Water Freezes at :",
+  option: [
+  "the same temperature as fresh water",
+  "At a Slightly high-temperature than fresh water",
+  "At a Slightly low-temperature than fresh water",
+  "Seawater does not freeze",
+  ],
+  answer: 3, 
+},
+{
+  question: "In the United States, low Sulphur Coal can be found primarily in the :",
+  option: [
+  "northeast",
+  "southeast",
+  "midwest",
+  "west",
+  ],
+  answer: 4, 
+},
+{
+  question: "A cyclone is a engineering device that is used to :",
+  option: [
+  "Transport Materials",
+  "Segregate Particles",
+  "Control Switching devices",
+  "Model fractals",
+  ],
+  answer: 2, 
+},
+{
+  question: "Who is called the Father of Nuclear Navy ?",
+  option: [
+  "Edward Teller",
+  "Robert Oppenheimer",
+  "Hymen Rickover",
+  "Chester Nimitz",
+  ],
+  answer: 3, 
+},
+{
+  question: "If a metal can be drawn into wires relatively easily it is called :",
+  option: [
+  "Malleable",
+  "Ductile",
+  "Extractive",
+  "Tactile",
+  ],
+  answer: 2, 
+},
     ]   
