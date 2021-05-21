@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 2 ,
     },
+    {
+  question: "The Mascot(Person, Animal, or, Things whose presence is required ) for the 34th National Games held in Jharkhand in 2008 is :",
+  option: [
+  "Sheru",
+  "Roopa",
+  "Chauva",
+  "None of these",
+  ],
+  answer: 3, 
+},
+{
+  question: "The Nmae kunjarani Devi is associated with ...?",
+  option: [
+  "Weight Lifting",
+  "Target Shooting",
+  "Athletics",
+  "Swimming",
+  ],
+  answer: 1, 
+},
+{
+  question: "Wasim Akram of Pakistan is associated with :",
+  option: [
+  "Polo",
+  "Hockey",
+  "Football",
+  "Cricket",
+  ],
+  answer: 4, 
+},
+{
+  question: "Which of the following countries won the final of the triangular Cricket Series held in Durban in february 1997 ?",
+  option: [
+  "India",
+  "New Zeeland",
+  "South Africa",
+  "Zimbabwe",
+  ],
+  answer: 3, 
+},
+{
+  question: "Which of the following is a Manipuri version of Hockey ?",
+  option: [
+  "Khong Kangjei",
+  "Hiyang Tanaba",
+  "Yubi Lakpi",
+  "Sagol Kangjei",
+  ],
+  answer: 1, 
+},
     ]   
