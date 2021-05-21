@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 3,
     },
+    {
+  question: "Who said that Indian National Congress is a BEGGING INSTITUTE ?",
+  option: [
+  "Mahatma Gnadhi",
+  "Bipin Chandra Pal",
+  "Bal Gangadhar Tilak",
+  "Aurobindo Ghosh",
+  ],
+  answer: 4, 
+},
+{
+  question: "Which of the following leader was not moderate ?",
+  option: [
+  "Dadabhai Naoroji",
+  "Anand Charlu",
+  "Bipin Chandra Pal",
+  "Madan Mohan Malviya",
+  ],
+  answer: 3, 
+},
+{
+  question: "Which of the following is not true about Bal Gangadhar Tilak ?",
+  option: [
+  "He wrote Gita Rahasya",
+  "He started Ganpati Festival in 1893",
+  "He launched a newspaper Kesari in English",
+  "He started Home rule league in 1916",
+  ],
+  answer: 3, 
+},
+{
+  question: "Who Started the English weekly New India ?",
+  option: [
+  "Lala Lajpat Rai",
+  "Bipin Chandra Pal",
+  "Dadabhai Naoroji",
+  "Madan Mohan Malviya",
+  ],
+  answer: 4, 
+},
+{
+  question: "When was Congress split ?",
+  option: [
+  "At Surat Session in 1906",
+  "At Benares session in 1905",
+  "At Madras in 1908",
+  "At Lahore in 1909",
+  ],
+  answer: 1, 
+},
     ]
