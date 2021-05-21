@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ASTRONOMY QUIZ</title>
+     <link rel="icon" type="images/icon" href="Images/logo.png">
   <script src="jquery-3.6.0.min.js"></script>
   
   <script type="text/javascript" src="easy-astronomy.js"></script>
   <script type="text/javascript" src="easy.js"></script>
+     
   
 
   <style type="text/css">
@@ -222,6 +224,21 @@
    a{
      margin: 20px;
    }
+        @media only screen and (max-width: 700px)
+        {
+            .quiz-box-easy
+            {
+                padding-left: 20px;
+                width: 380px;
+                padding-right:5px;
+            }
+        .option-box{
+            grid-template-columns: 1fr;
+        }
+        .quiz-box-easy header .quiz-title{
+            animation-name: none;
+        }
+        }
    
   </style>
 </head>
