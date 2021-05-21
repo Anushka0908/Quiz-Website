@@ -24,7 +24,6 @@ body
   background-size:cover;
 
 }
-
 .bgd
 {
     max-width: 1200px;
@@ -32,8 +31,11 @@ body
     background: lightpink;
     overflow: auto;
 }
-
-
+@keyframes opacity{
+	0%{opacity:0.6; }
+	
+	100%{opacity:1;}
+}
 .topic
 {
   border: 5px solid rgba(0, 4, 255, 0.452);
@@ -49,10 +51,25 @@ body
 {
   width:100%;
   height: 60%;
-  
-
+ 
 }
-.title{
+.straight
+{
+	animation-name: opacity;
+  animation-duration: 2500ms;
+  animation-timing-function: ease;
+ animation-iteration-count: infinite;
+}
+.reverse
+{
+	animation-name: opacity;
+  animation-duration: 2500ms;
+  animation-timing-function: ease;
+ animation-iteration-count: infinite;
+ animation-direction: reverse;
+}
+.title
+{
   text-align:center;
 }
 
@@ -62,13 +79,11 @@ body
  
   
 }
-.restart{
+.restart
+{
    border: none;
-   background: lightpink;
-   
-   
+   background: lightpink;   
 }
-
 a
 {
     text-align: center;
@@ -95,5 +110,3 @@ a:hover
   border-radius: 8px;
   scale:(0.8,0.8);
 }
-
-
