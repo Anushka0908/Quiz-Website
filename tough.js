@@ -7,7 +7,7 @@ let attemptque = 0;
 let correctans=0;
 let wrongans=0;
 var k;
-
+que.length=10;
 let totalque=que.length;
 
 
