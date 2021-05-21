@@ -137,7 +137,7 @@ let quiz=[
   "(~p)^q is true ",
   "p^(~q) is true",
   ],
-  answer: , 
+  answer:1 , 
 },
 {
   question: "A line which cuts a pair of parallel lines is called :",
