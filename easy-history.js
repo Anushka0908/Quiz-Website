@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 4,
     },
+    {
+  question: "Which among the following is the oldest Dynasty ?",
+  option: [
+  "Maurya",
+  "Gupta",
+  "kushan",
+  "Kanva",
+  ],
+  answer: 1, 
+},
+{
+  question: "Aryabhatta believed to have been born in 5th century AD,was a most renowned scholar of :",
+  option: [
+  "Astronomy",
+  "Biology",
+  "Medicine",
+  "Physiology",
+  ],
+  answer: 1, 
+},
+{
+  question: "The most famous Chera Ruler was",
+  option: [
+  "Udiyanjeral",
+  "Nedunjeraladan",
+  "Sengutuvan",
+  "Sengannan",
+  ],
+  answer: 3, 
+},
+{
+  question: "Which of the following leader was not present in the very first meeting of Indian National Congress ?",
+  option: [
+  "Dadabhai Naroji",
+  "Kashinath Trimbak Telang",
+  "Pherozeshah Mehta",
+  "Surendranth Banerjee",
+  ],
+  answer: 4, 
+},
+{
+  question: "Who told Indian Congree represents only Microscopic Minorities ?",
+  option: [
+  "Lord Curzon",
+  "Lord Dufferin",
+  "Lord Minto",
+  "None of These",
+  ],
+  answer: 2, 
+},
     ]    
