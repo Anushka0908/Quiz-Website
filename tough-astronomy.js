@@ -10,15 +10,15 @@ let quiz=[
       answer: 1,
     },
     {
-      question: "Which of the following is true for ORION? Orion is :",
-      option: [
-           "the brighest star in the sky",
-           "a constellation",
-           "the name given to a NASA spacecraft",
-           "an asteroid",
-      ],
-      answer: 2,
-    },
+  question: "Which type of star is maintained by the pressure of an electron gas?",
+  option: [
+  "Main Sequence Star",
+  "White Dwarf",
+  "Neutron Star",
+  "Black Hole",
+  ],
+  answer: 2, 
+},
     {
       question: "Which of the following is TRUE for Retrograde motion? Retrograde motion is :",
       option: [
@@ -98,5 +98,55 @@ let quiz=[
            "Rigel",
       ],
       answer: 1,
+    },
+    {
+      question: "Which of the following first hypothesized that the Earth orbited the Sun ?",
+      option: [
+      "Alexander the Great",
+      "Copernicus",
+      "Socrates",
+      "Tycho Brahe",
+      ],
+      answer: 2,
+    },
+    {
+      question: "The Cosmic Background Radiation, a Remnant of the Big Bang, is at what temperature (K = Kelvin) ?",
+      option: [
+      "100 K",
+      "0 K",
+      "5.3 K",
+      "2.7 K",
+      ],
+      answer: 4,
+    },
+    {
+      question: "The word ALBEDO refers to which of the following ?",
+      option: [
+      "The Wobbling motion of a Planet",
+      "The amount of light a Planet reflects",
+      "The Phase changes of a Planet",
+      "The brightness Of a Star",
+      ],
+      answer: 1,
+    },
+    {
+      question: "Cassini's Division is described by which of the following ?",
+      option: [
+      "A break in rings of Saturn",
+      "A break in the clouds of Jupiter",
+      "The distance between the first two Moons of Jupiter",
+      "The distance between the Van Allen belts",
+      ],
+      answer: 1,
+    },
+    {
+      question: "On February 9,1991 ,ROSAT, an orbiting observatory, finished the first ever all-sky survey of :",
+      option: [
+      "Gamma Rays",
+      "Infrared Radiation",
+      "Ultravioet Radiation",
+      "X-ray",
+      ],
+      answer: 4,
     },
     ]
