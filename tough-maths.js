@@ -99,5 +99,55 @@ let quiz=[
       ],
       answer: 2 ,
     },
+    {
+  question: "Consider triangle ABD such  that angle ADB= 20degree and C is a point on BD such that AB=AC and CD=CA . Then the measure of angle ABC is :",
+  option: [
+  "30 degree",
+  "40 degree",
+  "45 degree",
+  "60 degree",
+  ],
+  answer: 2, 
+},
+{
+  question: "Graphically, the pair of equations 7x-y=5 ; 21x-3y=10 represents two lines which are : ",
+  option: [
+  "intersecting at one point",
+  "Parallel",
+  "intersecting at two points",
+  "Coincident",
+  ],
+  answer: 2, 
+},
+{
+  question: "Mohan and Sohan solve an  quadratic equation . In solving ,Mohan commits a mistake in constant term and finds root 8 and 2 . Sohan commits a mistake in the coefficient of x . The Correct roots are :",
+  option: [
+  "9,1",
+  "-9,1",
+  "9,-1",
+  "-9,-1",
+  ],
+  answer: 1, 
+},
+{
+  question: "How many 3-digits even numbers can be formed from the digits 1,2,3,4,5,6 if digits can be repeated ?",
+  option: [
+  "108",
+  "54",
+  "720",
+  "120",
+  ],
+  answer: 1, 
+},
+{
+  question: "A coin is tossed 3 times and the outcomes are recoreded . How many possible outcomes are there ?",
+  option: [
+  "36",
+  "6",
+  "18",
+  "216",
+  ],
+  answer: 4, 
+},
     ]
     
