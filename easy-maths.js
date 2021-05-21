@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 3,
     },
+    {
+  question: "Look at the series : 2 , 1, (1/2) , (1/4) , ..... what number should come next ?",
+  option: [
+  "(1/3)",
+  "(1/8)",
+  "(2/8)",
+  "(1/16)",
+  ],
+  answer: 2, 
+},
+{
+  question: "Look at the series : 7 , 10 , 8 , 11 , 9 , 12 , ..... what should come next ?",
+  option: [
+  "7",
+  "10",
+  "11",
+  "13",
+  ],
+  answer: 2, 
+},
+{
+  question: "Look at the this series : 36 , 34 , 30 , 28 , 24 , .... what should come next ?",
+  option: [
+  "20",
+  "23",
+  "18",
+  "22",
+  ],
+  answer: 4, 
+},
+{
+  question: "Look at the series : 31 , 29 , 24 , 22 , 17 , .... what should come next ?",
+  option: [
+  "15",
+  "14",
+  "13",
+  "12",
+  ],
+  answer: 1, 
+},
+{
+  question: "2 is a :",
+  option: [
+  "Prime number",
+  "Composite number",
+  "Neither Prime nor Composite ",
+  "Odd number ",
+  ],
+  answer: 1, 
+},
     ]   
