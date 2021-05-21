@@ -99,4 +99,56 @@ let quiz=[
       ],
       answer: 3 ,
     },
+
+    {
+  question: "Who among the following Kushan Emperor was the first to introduce the Gold Coinage in India ?",
+  option: [
+  "Vima Kadphises",
+  "Vima Taktu",
+  "Vasishka ",
+  "Kujula Kadphises",
+  ],
+  answer: 1, 
+},
+{
+  question: "The daughter who milks animals in the Vedic Period was known as :",
+  option: [
+  "Kubha ",
+  "Duhitr",
+  "Komi",
+  "Sardha",
+  ],
+  answer: 2, 
+},
+{
+  question: "Megasthenes was succeeded as ambassador by :",
+  option: [
+  "Darius",
+  "Demetirus",
+  "Deimachos",
+  "Philip",
+  ],
+  answer:  3, 
+},
+{
+  question: "Which of the following Kushan Kings , who assumed the title - THE LORD OF THE WHOLE WORLD  ?",
+  option: [
+  "Kadphises I",
+  "Kadphises II",
+  "Kanishka",
+  "Huvishka",
+  ],
+  answer: 2, 
+},
+{
+  question: "Bimbisara was succeeded by :",
+  option: [
+  "Ashoka",
+  "Ajatashatru",
+  "Vasudeva",
+  "Chandragupta Maurya",
+  ],
+  answer: 2, 
+},
+
     ]
