@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 3 ,
     },
+    {
+  question: "Ozone in the Upper atmosphere is produced from :",
+  option: [
+  "Lighting",
+  "Photochemical Reactions",
+  "Electrical Appliances on Earth",
+  "Model Fractals",
+  ],
+  answer: 2, 
+},
+{
+  question: "The word ATOM is from a greek word meaning :",
+  option: [
+  "small",
+  "indivisible",
+  "unseen",
+  "visible",
+  ],
+  answer: 2, 
+},
+{
+  question: "Yeast used in making Bread is a ",
+  option: [
+  "Plant",
+  "Fungus",
+  "Bacteria",
+  "Seed",
+  ],
+  answer: 2, 
+},
+{
+  question: "Which of the following is primarily composed of Calcium  Carbonate ?",
+  option: [
+  "Fish Scales",
+  "Shark Teeth",
+  "Oyster Shells",
+  "Whale Bones",
+  ],
+  answer: 3, 
+},
+{
+  question: "In science , study of weights and measures is called :",
+  option: [
+  "Metrology",
+  "Meteorology",
+  "Mineralogy",
+  "Morphology",
+  ],
+  answer: 1, 
+},
 ]   
