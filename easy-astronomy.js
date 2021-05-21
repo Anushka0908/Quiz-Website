@@ -60,14 +60,14 @@ let quiz=[
       answer: 2,
     },
     {
-      question: "The time interval between two successive occurences of a specific type alignment of a planet(or the moon) with the sun and the earth is referred to as :",
+      question: "Which of the following best explains the shape of Milky Way Galaxy ?",
       option: [
-           "Conjuction",
-           "Opposition",
-           "Sidereal Period",
-           "Synodic Period",
+           "Spherical",
+           "Elliptical",
+           "Spiral",
+           "Barred-spiral",
       ],
-      answer: 4,
+      answer: 3,
     },
     {
       question: "The sunspot cycle is :",
@@ -98,5 +98,65 @@ let quiz=[
            "10,00,000",
       ],
       answer: 3,
+    },
+    {
+      question: "The Period from One full Moon to the next is",
+      option: [
+           "30.3 days",
+           "30 days",
+           "29.5 days",
+           "28 days",
+      ],
+      answer: 3,
+    },
+    {
+      question: "Which Planet rains Diamond ?",
+      option: [
+           "Saturn",
+           "Venus",
+           "Neptune",
+           "Jupiter",
+      ],
+      answer: 4,
+    },
+    {
+      question: "Which of the following Planets has Greatest ecentricity ?",
+      option: [
+           "Pluto",
+           "Jupiter",
+           "Mars",
+           "Mercury",
+      ],
+      answer: 1,
+    },
+    {
+      question: "Heliocentric means around",
+      option: [
+           "Jupiter",
+           "Moon",
+           "Sun",
+           "Neptune",
+      ],
+      answer: 3,
+    },
+    {
+      question: "Which of the Galaxy has Our SOLAR SYSTEM",
+      option: [
+           "Andromeda",
+           "Milky Way",
+           "Somberro",
+           "Black Eye",
+      ],
+      answer: 2,
+    },
+    {
+      question: "Largest Star in Our Solar System",
+      option: [
+          "Sun",
+          "Polaris",
+          "Sirius",
+          "Vega",
+      ],
+      answer: 1,
     },
     ]   
