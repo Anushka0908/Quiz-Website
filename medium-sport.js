@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 1,
     },
+    {
+  question: "Which game is Lan Thorpe associated with ?",
+  option: [
+  "Badminton",
+  "Chess",
+  "Swimming",
+  "Squash",
+  ],
+  answer: 3, 
+},
+{
+  question: "Which one of the following pair is not correctly matched?",
+  option: [
+  "Barbora Spotakova - Javelin Throw",
+  "Pamela Jelimo - Weightlifting ",
+  "Sanya Richards - Sprint",
+  "Yelena Isinbayeva - Pole Vault",
+  ],
+  answer: 2, 
+},
+{
+  question: "Who was the first Indian to reach the semifinal in Wimbledon Tennis Championship",
+  option: [
+  "Ramanathan Krishnan ",
+  "Ramesh Krishnan",
+  "Laender Pees",
+  "Mahesh Bhupati",
+  ],
+  answer: 1, 
+},
+{
+  question: "with which game is the Agha Khan Cup associated ?",
+  option: [
+  "Football",
+  "Badminton",
+  "Basketball",
+  "Hockey",
+  ],
+  answer: 4, 
+},
+{
+  question: "In which Country will the 2022 Ryder Cup be held?",
+  option: [
+  "India",
+  "Japan",
+  "Italy",
+  "America",
+  ],
+  answer: 3, 
+},
     ]
