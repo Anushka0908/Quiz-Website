@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" type="image/icon" href="Images/logo.png">
   <title>ASTRONOMY QUIZ</title>
   <script src="jquery-3.6.0.min.js"></script>
   
@@ -221,7 +222,20 @@
        a{
      margin: 20px;
    }
-   
+   @media only screen and (max-width: 700px)
+        {
+            .quiz-box-easy
+            {
+                padding-left: 20px;
+                width: 380px;
+                padding-right:5px;
+            }
+        .option-box{
+            grid-template-columns: 1fr;
+        }
+        .quiz-box-easy header .quiz-title{
+            animation-name: none;
+        }
   </style>
 </head>
 <body>
