@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer: 3,
     },
+    {
+  question: "Another Name for a logic chip is:",
+  option: [
+  "PROM",
+  "Memory",
+  "Microprocessor",
+  "ROM",
+  ],
+  answer: 3, 
+},
+ {
+  question: "The Number System based on 0 and 1 only is known as",
+  option: [
+  "Binary System",
+  "Barter System",
+  "Number System",
+  "Hexadecimal System",
+  ],
+  answer: 1, 
+},
+ {
+  question: "Which of the following is not part of the CPU ?",
+  option: [
+  "Primary Storage",
+  "Registers",
+  "Control Unit",
+  "ALU",
+  ],
+  answer: 1, 
+},
+ {
+  question: "Which of the following represents the fastest data transmission speed ?",
+  option: [
+  "Bandwidth",
+  "bps",
+  "gbps",
+  "kbps",
+  ],
+  answer: 3, 
+},
+ {
+  question: "What is the major feature of the WWW that makes it simple to learn and use?",
+  option: [
+  "Database Interface",
+  "Graphical text Interface",
+  "Graphical user Interface",
+  "Point-to-Point protocol",
+  ],
+  answer: 3, 
+},
     ]   
