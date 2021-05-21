@@ -1,7 +1,9 @@
+  
 *
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 .background
@@ -22,6 +24,15 @@ body
     min-height: 100vh;
     flex-direction: column;
 }
+@keyframes bouncy{
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
 .button
 {  
     position: relative;
@@ -35,11 +46,19 @@ body
     font-size: 24px;
     letter-spacing: 4px;
     border-radius: 40px;
-    background: linear-gradient(90deg,green,yellow);
+    background: linear-gradient(30deg,green,yellow);
     overflow:hidden;
     cursor: pointer;
-}
+    animation-name: bouncy;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
 
+}
+.button:hover{
+    background: linear-gradient(150deg,yellow,green);
+}
 .button:nth-child(2)
 {
     background: linear-gradient(90deg,green,yellow);
@@ -74,21 +93,7 @@ span
     border-radius: 50%;
     animation: animate 1s linear infinite;
 }
-@keyframes animate
-{
-    0%
-    {
-        width: 0px;
-        height: 0px;
-        opacity: 0.5;
-    }
-    100%
-    {
-        width: 500px;
-        height: 500px;
-        opacity: 0;
-    }
-}
+
 .back
 {
     margin-top: 80px;
