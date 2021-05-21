@@ -99,4 +99,54 @@ let quiz=[
       ],
       answer:3,
     },
+    {
+  question: "What are the three elements of a Bipolar Transistor?",
+  option: [
+  "grid, plate, cathode",
+  "Suppressor, deflector, target",
+  "energizer, controller, terminus",
+  "emitter, base, collector",
+  ],
+  answer: 4, 
+},
+{
+  question: "To reverse the direction of rotation of a three phase AC induction motor , do one of the following :",
+  option: [
+  "reverse any two of the three phase connections",
+  "change the frequency of the applied AC power",
+  "operate the motor below the stall torque at very high slip",
+  "None of the above",
+  ],
+  answer: 1, 
+},
+{
+  question: "In a certain elctronic circuit the ouput is positive  if input 1 is positive and input 2 is 0 . if both inputs are positive the output is 0. This is :",
+  option: [
+  "an AND circuit",
+  "a NOR circuit",
+  "an OR circuit ",
+  "a high pass filter",
+  ],
+  answer: 3, 
+},
+{
+  question: "In a typical power plant used to generate electricity in the U.S. , the % of energy in the fuel i.e. converted to electricity is about:",
+  option: [
+  "99 %",
+  "50 %",
+  "35 %",
+  "10 %",
+  ],
+  answer: 3, 
+},
+{
+  question: "Electric power is less expensive at night because:",
+  option: [
+  "more hydroelectric generation is brought on line at night",
+  "there is less demand at night",
+  "pollution control is less stringent at night ",
+  "power plants are more efficient",
+  ],
+  answer: 2, 
+},
     ]
