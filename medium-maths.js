@@ -99,5 +99,55 @@ let quiz=[
       ],
       answer: 3 ,
     },
+    {
+  question: "Three pencils cost the same as two erasers . Four erasers cost the same as one ruler . Pencils are more expensive than rulers. If the first two statements are true , the third statement is :",
+  option: [
+  "True",
+  "False",
+  "Uncertain",
+  "Given Information is not sufficient ",
+  ],
+  answer: 2, 
+},
+{
+  question: "Look Carefully for the pattern , and then choose which pairs of numbers come next ? 9 16 23 30 37 44 51 ",
+  option: [
+  "59 66",
+  "56 62",
+  "58 66",
+  "58 65",
+  ],
+  answer: 4, 
+},
+{
+  question: "Look at this series : U32 , V29 , ___ , X23 , Y20 , ... What number should fill the blank ?",
+  option: [
+  "W26",
+  "W17",
+  "Z17",
+  "Z26",
+  ],
+  answer: 3, 
+},
+{
+  question: "If both p and q are true then :",
+  option: [
+  "(p^q) is true",
+  "~(p^q) is true ",
+  "(~p)^q is true ",
+  "p^(~q) is true",
+  ],
+  answer: , 
+},
+{
+  question: "A line which cuts a pair of parallel lines is called :",
+  option: [
+  "Tangent",
+  "Chord",
+  "Transversal",
+  "Intersector",
+  ],
+  answer: 3, 
+},
     ]
     
