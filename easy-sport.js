@@ -40,14 +40,14 @@ let quiz=[
   answer: 3,
 },
 {
-  question: "In which Indian city did the game of Polo originate ?",
+  question: "Wankhede Stadium is situated in :",
   option: [
-       "Gangtok",
+       "chandigarh",
        "Jaipur",
-       "Manipur",
+       "Mumbai",
        "kolkata",
   ],
-  answer: 2,
+  answer: 3,
 },
 {
   question: "In which of the following Hindi film has actor Shahrukh Khan played the role of a Hockey Coach? ",
@@ -99,4 +99,55 @@ let quiz=[
   ],
   answer: 2 ,
 },
+{
+  question: "The Olympic Games are normally held at an interval of ...",
+  option: [
+  "2 years",
+  "3 years",
+  "4 years",
+  "5 years",
+  ],
+  answer: 3, 
+},
+{
+  question: "Who is the first Indian Woman to win an Asian Games gold in 400 m run ?",
+  option: [
+  "M.L. Valsamma",
+  "P.T. Usha",
+  "Kamaljit Sandhu",
+  "K.Malleshwari",
+  ],
+  answer: 3, 
+},
+{
+  question: "Who of the following is a Football Player ?",
+  option: [
+  "Fernando Alonso",
+  "Kimi Raikkonen",
+  "Lewis Hamilton",
+  "Nicolas Anelka",
+  ],
+  answer: 4, 
+},
+{
+  question: "What is Tiger Woods( A golf player ) real first name ?",
+  option: [
+  "Eldrick",
+  "Jhon",
+  "Thomson",
+  "Nick",
+  ],
+  answer: 1, 
+},
+{
+  question: "What is the maximum amount of time allowed to look for a lost ball ? ",
+  option: [
+  "5 minutes",
+  "2 minutes",
+  "3 minutes",
+  "6 minutes",
+  ],
+  answer: 3, 
+},
 ]
+
